@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" fx:id="myAnchorPane" prefHeight="250.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javafxreix.FXMLController">
+    <children>
+        
+        <Text layoutX="94.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="..:::Elef@HardCode:::.." />
+        <Text layoutX="54.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Id to elef" />
+        <Text layoutX="54.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User to elef" />
+        <Text layoutX="54.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Field to elef" />
+      
+        <TextField fx:id="elef" layoutX="164.0" layoutY="67.0" />
+        <TextField fx:id="elefSU" layoutX="164.0" layoutY="120.0" />
+        <TextField fx:id="elefield" layoutX="164.0" layoutY="167.0" />
+        <Text layoutX="100.0" layoutY="227.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Plis chose any button"  />
+         
+        <Button fx:id="bt" layoutX="200.0" layoutY="240.0" mnemonicParsing="false" onAction="#close" text="Close" />
+        <Button fx:id="gobt" layoutX="150.0" layoutY="240.0" mnemonicParsing="false" onAction="#go" text="Go" />
+ 
+    </children>
+</AnchorPane>
